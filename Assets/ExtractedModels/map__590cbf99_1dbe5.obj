@@ -1,0 +1,17 @@
+# Extracted from the Cocos Creator 3.8.3 playable build
+# Geometry-only OBJ preview for Unity; rig and animation stay in the raw assets.
+o map
+v 92.1222992 92.1222992 0
+v -92.1222992 92.1222992 0
+v -92.1222992 -92.1222992 0
+v 92.1222992 -92.1222992 0
+vt 1.69907689 -0.699076653
+vt 1.69907689 1.69907689
+vt -0.699076891 1.69907665
+vt -0.699076653 -0.699076891
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+f 1/1/1 2/2/2 3/3/3
+f 1/1/1 3/3/3 4/4/4

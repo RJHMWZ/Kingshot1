@@ -1,0 +1,17 @@
+# Extracted from the Cocos Creator 3.8.3 playable build
+# Geometry-only OBJ preview for Unity; rig and animation stay in the raw assets.
+o soil
+v 5.86879826 5.86280632 0
+v -5.8628068 5.86879778 0
+v -5.86879826 -5.86280632 0
+v 5.86280727 -5.86879778 0
+vt 1 1
+vt 0 1
+vt 0 0
+vt 1 0
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+f 1/1/1 2/2/2 3/3/3
+f 1/1/1 3/3/3 4/4/4

@@ -1,0 +1,17 @@
+# Extracted from the Cocos Creator 3.8.3 playable build
+# Geometry-only OBJ preview for Unity; rig and animation stay in the raw assets.
+o mesh_1263d74c
+v -0.5 -0.5 0
+v 0.5 -0.5 0
+v -0.5 0.5 0
+v 0.5 0.5 0
+vt 0 0
+vt 1 0
+vt 0 1
+vt 1 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+f 1/1/1 2/2/2 3/3/3
+f 2/2/2 4/4/4 3/3/3
