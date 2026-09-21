@@ -1,0 +1,539 @@
+{
+  "source": "Kingshot original HTML playable",
+  "raw_script_count": 16,
+  "config_count": 5,
+  "module_count": 106,
+  "decoder_replacements": 9020,
+  "modules": [
+    {
+      "name": "AnimationConst",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/AnimationConst.reference.js"
+    },
+    {
+      "name": "Archer",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/Archer.reference.js"
+    },
+    {
+      "name": "Area",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/Area.reference.js"
+    },
+    {
+      "name": "Area2",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/Area2.reference.js"
+    },
+    {
+      "name": "AreaController",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/AreaController.reference.js"
+    },
+    {
+      "name": "AreaType",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/AreaType.reference.js"
+    },
+    {
+      "name": "AreaType2",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/AreaType2.reference.js"
+    },
+    {
+      "name": "Arrow",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/Arrow.reference.js"
+    },
+    {
+      "name": "ArrowInterface",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/ArrowInterface.reference.js"
+    },
+    {
+      "name": "AudioMgr",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/AudioMgr.reference.js"
+    },
+    {
+      "name": "AudioName",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/AudioName.reference.js"
+    },
+    {
+      "name": "AutoAdapter",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/AutoAdapter.reference.js"
+    },
+    {
+      "name": "AutoParticle",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/AutoParticle.reference.js"
+    },
+    {
+      "name": "BezierAction",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/BezierAction.reference.js"
+    },
+    {
+      "name": "BezierUtil",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/BezierUtil.reference.js"
+    },
+    {
+      "name": "BundleMgr",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/BundleMgr.reference.js"
+    },
+    {
+      "name": "Castle",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/Castle.reference.js"
+    },
+    {
+      "name": "CCAnimation",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/CCAnimation.reference.js"
+    },
+    {
+      "name": "CCAnimationHandler",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/CCAnimationHandler.reference.js"
+    },
+    {
+      "name": "CCEffectMgr",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/CCEffectMgr.reference.js"
+    },
+    {
+      "name": "CCEffectMgrConst",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/CCEffectMgrConst.reference.js"
+    },
+    {
+      "name": "CCLog",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/CCLog.reference.js"
+    },
+    {
+      "name": "CCParticleSystem",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/CCParticleSystem.reference.js"
+    },
+    {
+      "name": "CharacterBase",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/CharacterBase.reference.js"
+    },
+    {
+      "name": "CharacterBaseObj3D",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/CharacterBaseObj3D.reference.js"
+    },
+    {
+      "name": "CharacterType",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/CharacterType.reference.js"
+    },
+    {
+      "name": "Coin",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/Coin.reference.js"
+    },
+    {
+      "name": "CoinBurst",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/CoinBurst.reference.js"
+    },
+    {
+      "name": "CoinComp",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/CoinComp.reference.js"
+    },
+    {
+      "name": "Collision",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/Collision.reference.js"
+    },
+    {
+      "name": "CoreEventManager",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/CoreEventManager.reference.js"
+    },
+    {
+      "name": "CoreEventName",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/CoreEventName.reference.js"
+    },
+    {
+      "name": "debug-view-runtime-control",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/debug-view-runtime-control.reference.js"
+    },
+    {
+      "name": "Debug",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/Debug.reference.js"
+    },
+    {
+      "name": "Door",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/Door.reference.js"
+    },
+    {
+      "name": "DropItemBase",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/DropItemBase.reference.js"
+    },
+    {
+      "name": "EasyPool",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/EasyPool.reference.js"
+    },
+    {
+      "name": "EasyPoolName",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/EasyPoolName.reference.js"
+    },
+    {
+      "name": "Enemy",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/Enemy.reference.js"
+    },
+    {
+      "name": "EnemyController",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/EnemyController.reference.js"
+    },
+    {
+      "name": "EnemyQueue",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/EnemyQueue.reference.js"
+    },
+    {
+      "name": "FenseCtrl",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/FenseCtrl.reference.js"
+    },
+    {
+      "name": "FirstPersonCamera",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/FirstPersonCamera.reference.js"
+    },
+    {
+      "name": "FitScreenConst",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/FitScreenConst.reference.js"
+    },
+    {
+      "name": "FitScreenUtil",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/FitScreenUtil.reference.js"
+    },
+    {
+      "name": "GameConfig",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/GameConfig.reference.js"
+    },
+    {
+      "name": "GameData",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/GameData.reference.js"
+    },
+    {
+      "name": "GameDirector",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/GameDirector.reference.js"
+    },
+    {
+      "name": "GameHelper",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/GameHelper.reference.js"
+    },
+    {
+      "name": "GoldMine",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/GoldMine.reference.js"
+    },
+    {
+      "name": "GoodsStack",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/GoodsStack.reference.js"
+    },
+    {
+      "name": "GoodsStack2",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/GoodsStack2.reference.js"
+    },
+    {
+      "name": "GuideArrow",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/GuideArrow.reference.js"
+    },
+    {
+      "name": "GuideArrowConst",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/GuideArrowConst.reference.js"
+    },
+    {
+      "name": "GuideStartPanel",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/GuideStartPanel.reference.js"
+    },
+    {
+      "name": "HouseExtra",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/HouseExtra.reference.js"
+    },
+    {
+      "name": "Hp",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/Hp.reference.js"
+    },
+    {
+      "name": "I18nData",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/I18nData.reference.js"
+    },
+    {
+      "name": "I18nLabel",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/I18nLabel.reference.js"
+    },
+    {
+      "name": "I18nMgr",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/I18nMgr.reference.js"
+    },
+    {
+      "name": "I18nSprite",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/I18nSprite.reference.js"
+    },
+    {
+      "name": "ItemCreate",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/ItemCreate.reference.js"
+    },
+    {
+      "name": "ItemPanel",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/ItemPanel.reference.js"
+    },
+    {
+      "name": "JoyStick",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/JoyStick.reference.js"
+    },
+    {
+      "name": "JoyStickConst",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/JoyStickConst.reference.js"
+    },
+    {
+      "name": "JoystickCustom",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/JoystickCustom.reference.js"
+    },
+    {
+      "name": "JoyStickUI",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/JoyStickUI.reference.js"
+    },
+    {
+      "name": "Kdtree",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/Kdtree.reference.js"
+    },
+    {
+      "name": "LegalTips",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/LegalTips.reference.js"
+    },
+    {
+      "name": "LocationUtil",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/LocationUtil.reference.js"
+    },
+    {
+      "name": "LogoPanel",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/LogoPanel.reference.js"
+    },
+    {
+      "name": "main",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/main.reference.js"
+    },
+    {
+      "name": "MaterialsPlugIn",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/MaterialsPlugIn.reference.js"
+    },
+    {
+      "name": "Math",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/Math.reference.js"
+    },
+    {
+      "name": "MathUtil",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/MathUtil.reference.js"
+    },
+    {
+      "name": "MountMgr",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/MountMgr.reference.js"
+    },
+    {
+      "name": "NavLineComp",
+      "group": "03_Areas_Buildings_Economy",
+      "path": "01_Gameplay_Modules_Deobfuscated/03_Areas_Buildings_Economy/NavLineComp.reference.js"
+    },
+    {
+      "name": "Object3D",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/Object3D.reference.js"
+    },
+    {
+      "name": "ObjNode",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/ObjNode.reference.js"
+    },
+    {
+      "name": "Octree",
+      "group": "07_Unclassified",
+      "path": "01_Gameplay_Modules_Deobfuscated/07_Unclassified/Octree.reference.js"
+    },
+    {
+      "name": "PhysicsHelper",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/PhysicsHelper.reference.js"
+    },
+    {
+      "name": "playable_controller",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/playable_controller.reference.js"
+    },
+    {
+      "name": "PlayableChannel",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/PlayableChannel.reference.js"
+    },
+    {
+      "name": "Player",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/Player.reference.js"
+    },
+    {
+      "name": "PlayerWeaponArrow",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/PlayerWeaponArrow.reference.js"
+    },
+    {
+      "name": "Quaternion",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/Quaternion.reference.js"
+    },
+    {
+      "name": "RepairVecZero",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/RepairVecZero.reference.js"
+    },
+    {
+      "name": "ResultPanel",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/ResultPanel.reference.js"
+    },
+    {
+      "name": "Shadow",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/Shadow.reference.js"
+    },
+    {
+      "name": "ShadowComp",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/ShadowComp.reference.js"
+    },
+    {
+      "name": "SkelAniName",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/SkelAniName.reference.js"
+    },
+    {
+      "name": "Soldier",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/Soldier.reference.js"
+    },
+    {
+      "name": "SoldierController",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/SoldierController.reference.js"
+    },
+    {
+      "name": "super_html_playable",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/super_html_playable.reference.js"
+    },
+    {
+      "name": "ThirdPersonCameraType",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/ThirdPersonCameraType.reference.js"
+    },
+    {
+      "name": "ThreeFreeLookCamera",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/ThreeFreeLookCamera.reference.js"
+    },
+    {
+      "name": "TimerAction",
+      "group": "05_Core_Audio_Effects_Pooling",
+      "path": "01_Gameplay_Modules_Deobfuscated/05_Core_Audio_Effects_Pooling/TimerAction.reference.js"
+    },
+    {
+      "name": "TowerWeapon",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/TowerWeapon.reference.js"
+    },
+    {
+      "name": "TowerWeaponArrow",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/TowerWeaponArrow.reference.js"
+    },
+    {
+      "name": "TowerWeaponCtrl",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/TowerWeaponCtrl.reference.js"
+    },
+    {
+      "name": "TowerWeaponType",
+      "group": "02_Combat_Enemies_Soldiers",
+      "path": "01_Gameplay_Modules_Deobfuscated/02_Combat_Enemies_Soldiers/TowerWeaponType.reference.js"
+    },
+    {
+      "name": "UICoordinateTracker",
+      "group": "04_Guide_UI_Result",
+      "path": "01_Gameplay_Modules_Deobfuscated/04_Guide_UI_Result/UICoordinateTracker.reference.js"
+    },
+    {
+      "name": "UserAction",
+      "group": "01_Player_Input_Camera",
+      "path": "01_Gameplay_Modules_Deobfuscated/01_Player_Input_Camera/UserAction.reference.js"
+    },
+    {
+      "name": "VectorTool",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/VectorTool.reference.js"
+    },
+    {
+      "name": "World",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/World.reference.js"
+    },
+    {
+      "name": "DynamicReExportHelper",
+      "group": "06_Math_World_Utilities",
+      "path": "01_Gameplay_Modules_Deobfuscated/06_Math_World_Utilities/DynamicReExportHelper.reference.js"
+    }
+  ]
+}
